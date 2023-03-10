@@ -1,0 +1,108 @@
+body {
+    font-family: 'Bebas Neue';}
+
+    .container-grid {
+        width: 85%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .container-grid img{
+        height: 100%;
+    }
+    header {
+        background-color: #c59b6b;
+        height: 80px;
+        position: fixed;
+        width: 100vw;
+        z-index: 99;
+    }
+    .conteudo-header {
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+        align-items: center;
+    }
+    .logo{
+        height: 40px;
+    }
+    .menu-header {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu-header a {
+        color: rgb(66, 36, 17);
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.25em;
+        transition: 0.5s;
+    }
+    .banner {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    h1 {
+        color: white;
+        font-size: 80px;
+    }
+    
+    .Projetos {
+        background-color: #f0b683;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .sobre-projetos h2 {
+        color: rgb(129, 90, 45);
+        font-size: 50px;
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+    
+    .conteudo-sobre {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .imagem-sobre {
+        width: 40%;
+    }
+    
+    .texto-sobre {
+        width: 50%;
+    }
+    
+    .texto-gato {
+        color: rgb(71, 47, 22);
+        font-family: 'Courier New', Courier, monospace;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .conteudo-sobre h3 {
+        color: #000000;
+        font-size: 45px;
+        font-weight: 500;
+    }
+    
+    .texto-sobre p {
+        color: #000000;
+        font-family: 'Segoe UI', sans-serif;
+        text-align: justify;
+    }
+    .texto-banner span {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    justify-content: space-around;
+    font-size: 75px;
+    background-color: #f0b683;
+    color: #000000;
+}
+    
+    
+    
+    
