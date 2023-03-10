@@ -1,0 +1,43 @@
+body {
+    background-color: white;
+}
+#menu {
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+}
+#menu img {
+    width: 60px;
+    margin-left: 30px;
+}
+.linkMenu {
+    color: aliceblue;
+    font-size: 2em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.parte1 {
+width: 100%;
+height: 800px;
+text-align: center;
+}
+.parte1 img{
+    height: 500px;
+}
+.parte1 h1 {
+    color: black;
+}
+.parte1 p {
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgray;
+}
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}

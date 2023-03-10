@@ -1,0 +1,31 @@
+
+form{
+    text-align: center;
+}
+form h2{
+    background-color: aliceblue;
+}
+body {
+    text-align: center;
+margin-top: 130px;
+    background: rgb(0,210,230);
+    background: linear-gradient(90deg, rgba(0,210,230,1) 0%, rgba(29,130,142,1) 35%, rgba(10,40,46,1) 100%); ;
+}
+form {
+    border-width: medium;
+    border-style: solid;
+}
+.container{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+}
+input {
+    background: rgb(0,210,230);
+    background: linear-gradient(90deg, rgba(0,210,230,1) 0%, rgba(29,130,142,1) 86%, rgba(10,40,46,1) 100%);;
+}
+textarea{
+   background: rgb(0,210,230);
+    background: linear-gradient(90deg, rgba(0,210,230,1) 0%, rgba(29,130,142,1) 86%, rgba(10,40,46,1) 100%);;
+}
