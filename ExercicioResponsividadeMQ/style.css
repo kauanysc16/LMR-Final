@@ -1,0 +1,72 @@
+body{
+    background-color: rgba(58, 58, 58, 0.753);
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 7vh;
+    background-color:rgba(255, 255, 255, 0.534);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img {
+    height: 80%;
+}
+header nav {
+    width: 50%;
+    display:flex ;
+    justify-content: space-evenly;
+}
+.link {
+    text-decoration: none;
+    color: rgba(97, 94, 94, 0.993);
+    text-transform: uppercase;
+}
+.hamburger{
+    display: none;
+}
+.p1{
+    background-image: url(img/Captura\ de\ tela\ 2023-04-14\ 135451.jpg);
+    background-size:  cover;
+    width: 100%;
+    height: 60vh;
+    margin: 0;
+    padding: 1px;
+}
+.p1 .titulo{
+    width:40%;
+    height: 100%;
+    text-align: center;
+}
+.titulo h1{
+    font-size: 80px;
+    color:rgb(214, 212, 212);
+    text-transform: uppercase;
+}
+.titulo h2{
+    font-size: 40px;
+    color: rgb(228, 228, 228);
+}
+.titulo img{
+    width: 10%;
+}
+@media screen and (max-width: 768px){
+    .hamburger{
+        display: inline;
+    }    
+    header nav {
+        display: none;
+    }
+   .titulo .p1{
+    width: 100%;
+   }
+   .titulo h1{
+    font-size: 40px;
+   }
+   .titulo h2{
+    font-size: 20px;
+   }
+
+    }
+    
