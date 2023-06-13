@@ -17,12 +17,6 @@ background: linear-gradient(90deg, rgba(68,66,66,1) 0%, rgba(0,0,0,1) 50%, rgba(
   height: 100vh;
   background-color: #706c6c93;
 }
-.page h1 {
- 
-}
-.formLogin p {
- 
-}
 .page .email {
   color: #ffffff;
 }
@@ -123,4 +117,8 @@ strong {
 }
 strong {
   color: #ffffff;
+}
+h3 {
+  display: flex;
+  justify-content: center;
 }
