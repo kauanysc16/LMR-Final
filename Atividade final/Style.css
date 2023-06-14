@@ -122,3 +122,9 @@ h3 {
   display: flex;
   justify-content: center;
 }
+.artistas-ti h1{
+  display: flex;
+  justify-content: center;
+  color: #fffefe;
+  background-color: darkgray;
+}
